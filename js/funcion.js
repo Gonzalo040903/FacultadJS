@@ -68,13 +68,10 @@ function determinarFigura() {
 
 function calcularPerimetro() {
     const longiR = longi.value;
-    console.log(`longitud ${longiR}`);
     let resultado;
     const lado = cantLados.value;
-    console.log(`lados ${lado}`);
     if (lado >= 3 && lado <= 8) {
         resultado = lado * longiR
-        console.log("resultado", resultado);
         const titulores = document.createElement("h5");
         titulores.innerHTML = `el perimetro es igual a ${resultado}`
         res2.appendChild(titulores);
@@ -102,4 +99,7 @@ function reset() {
     divi.innerHTML = "";
     divi.appendChild(texto);
     longi.value = "";
+    const logiR = document.createElement("h5");
+    res2.innerHTML= "";
+    res2.appendChild(logiR);
 }
