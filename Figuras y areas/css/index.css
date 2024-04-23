@@ -1,0 +1,15 @@
+body{
+    padding: 0px;
+    margin: 0px; 
+}
+
+#contenedor{
+    padding: 2rem;
+    border: 3px red solid;
+    margin-top: 5rem;
+    border-radius: 15px;
+}
+
+.imagenF{
+    width: 14rem;
+}
